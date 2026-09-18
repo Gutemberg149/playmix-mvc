@@ -33,5 +33,5 @@ jobs:
       with: 
         app-name: 'playmix-mvc-rm562267'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e259b9f4f67342c489d057fc081ec898 }}
+        publish-profile: ${{ secrets.AZURE_CREDENTIALS }}
         package: '${{ github.workspace }}/target/*.jar'
